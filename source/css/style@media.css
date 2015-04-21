@@ -1,8 +1,12 @@
 @media screen and (max-width: 800px) {
 .contacts .container {
-  max-width: 560px;
+  max-width: 460px;
+  padding-bottom:20px;
 }
-
+.contacts .left {
+  float: left;
+  width: auto;
+}
   
 .course.first {
   float: none;
