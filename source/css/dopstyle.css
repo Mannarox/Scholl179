@@ -4,7 +4,7 @@ h1 {
   font-weight: 400;
   text-align: center;
   color:white;
-  margin-top:60px;
+/*  margin-top:60px;*/
 }
 h2 {
   font-family: "ProximaNovaSemibold", sans-serif;
@@ -24,10 +24,7 @@ a:hover {
   color: #ff3333;
   text-decoration: none;
 }
-.cover-container {
-	margin-right: auto;
-    margin-left: auto;
-}
+
 .headerTop {
   width: 100%;
   position: fixed;
@@ -36,53 +33,42 @@ a:hover {
   z-index:999;
 }
 
-.topNavigation {
-  /*padding-top: 14px;*/
-  display: inline-block;
-  width:50%;
+.col-md-offset-2 {
+  margin-left: 19.66666667%;
 }
-
-.topNavigation ul {
+.headerTop ul {
   margin: 0 auto;
 }
-.topNavigation ul li {
+.headerTop li {
   float: left;
-  padding: 10px 0px;
+  padding: 0px 10px 10px 10px;
 }
-.topNavigation ul li a {
-  color: #80EEBF;
-  font-family: "ProximaNovaLight", sans-serif;
-  font-size: 15px;
-  font-weight: 100;
-  -webkit-transition: 0.3s linear all;
-  -o-transition: 0.3s linear all;
-  transition: 0.3s linear all;
+.itemMenu {
+	margin-top: -50px;
+	padding-bottom:10px;*/
 }
-.topNavigation ul li a:hover {
+.headerTop a{
+	margin-left: 10px;
+	color: #80EEBF;
+	font-family: "ProximaNovaLight", sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+	-webkit-transition: 0.3s linear all;
+	-o-transition: 0.3s linear all;
+	transition: 0.3s linear all;
+	display:inline-block;
+}
+.headerTop a:hover {
   color: #ff3333;
   
 }
-.topNavigation ul li .logo {
+.logo {
   background: url(../img/logo.png) no-repeat center;
   width: 33px;
   height: 36px;
+  margin:0 auto;
+  margin-top:10px;
 }
-.topNavigation ul li.first {
-  padding-right: 10%;
-}
-.topNavigation ul li.second {
-  padding-right: 15%;
-}
-.topNavigation ul li.third {
-  padding-right: 15%;
-}
-.topNavigation ul li.fourth {
-  padding-right: 10%;
-}
-.clr {
-  clear: both;
-}
-
 
 .header{
 	  padding-top: 50px;
@@ -110,15 +96,15 @@ a:hover {
       margin-left: -87.5px;
     }
     .sliderImage2{
-      left:150%;
+      left:200%;
       margin-left: -120px;
     }
     .sliderImage3{
-       left:150%;
+  	   left:200%;
        margin-left: -169px;
     }
     .sliderImage4{
-       left:150%;
+       left:200%;
        margin-left: -61px;
     }
 
@@ -244,7 +230,22 @@ a:hover {
 	margin-top: 32px;
 	line-height: 24px;
 }
+.courses h3 {
+	padding-top:30px;
+	padding-bottom:20px;
+	border-bottom: solid 3px #ff3333;
+/*	color: #2B2B2B;*/
+	font-family: "ProximaNovaLight", sans-serif;
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 36px;
+	/*text-align: center;*/
+}
 
+.courses img {
+	width:100%;
+	margin-top:20px;
+}
 .contacts {
 	background-color: #001A22;
 	color:white;
@@ -294,7 +295,9 @@ address {
 }
 .twitter {
   background: url(../img/twitter.png) no-repeat center;
-  margin-right: 220px;
+}
+.forma {
+	padding-top: 25px;
 }
 form input, form textarea {
   width: 300px;
@@ -332,6 +335,7 @@ form textarea {
   font-weight: 100;
   text-transform: uppercase;
   cursor: pointer;
+  margin-bottom:20px;
 }
 .submit:hover
 {

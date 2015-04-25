@@ -35,7 +35,7 @@ function start(){
 			$slide1.css({ left:"50%" });
 			setTimeout(function(){
 			$sliderImage.css({ display:"none" });
-			$sliderImage.css({ left:"150%" });
+			$sliderImage.css({ left:"200%" });
 			setTimeout(function(){
 				$sliderImage.css({ display:"block" });
 				count++;
@@ -52,7 +52,7 @@ function start(){
 			$sliderImage2.css({ left:"50%" });
 			setTimeout(function(){
 				$sliderImage.css({ display:"none" });
-				$sliderImage.css({ left:"150%" });
+				$sliderImage.css({ left:"200%" });
 				setTimeout(function(){
 					$sliderImage.css({ display:"block" });
 					count++;
